@@ -9,7 +9,7 @@ It's a n-linked-hash. It's been rattling around in my head for a while - thought
     hash = NLinkedHash.new
 
     hash["foo"] = "bar"
-    hash.link "foo", "baz"
+    hash["foo"] = "baz"
 
     p hash["foo"]
     # ["bar", "baz"]
